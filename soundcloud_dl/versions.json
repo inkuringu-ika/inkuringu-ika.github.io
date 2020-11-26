@@ -1,0 +1,23 @@
+{
+  "minimum_version_available":"7.1.0",
+  "versions":[
+    {
+      "available":true,
+      "version":"7.1.0",
+      "build_number":"1",
+      "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases/download/v7.1.0/soundcloud_dl.exe"
+    },
+    {
+      "available":true,
+      "version":"7.0.0",
+      "build_number":"2",
+      "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases/download/v7.0.0/soundcloud_dl.exe"
+    },
+    {
+      "available":false,
+      "version":"0.0.0",
+      "build_number":"1",
+      "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases"
+    }
+  ]
+}
