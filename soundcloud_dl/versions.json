@@ -2,7 +2,7 @@
   "minimum_version_available":"7.1.0",
   "versions":[
     {
-      "available":false,
+      "available":true,
       "version":"7.1.2",
       "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases/download/v7.1.2/soundcloud_dl.exe"
     },
