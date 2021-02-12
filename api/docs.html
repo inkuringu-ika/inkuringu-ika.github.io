@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>API reference</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+<style>
+body {
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  body {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1140px;
+  }
+}
+</style>
+</head>
+<body>
+<h1>API reference</h1>
+<br>
+<div>
+<h2>Get SoundCloud client_id</h2>
+method: GET
+<br>
+url: https://inkuringu-ika.github.io/api/soundcloud-client_id.json
+<br>
+Sample:
+<br>
+<textarea style="width:500px;max-width:100%;height:300px" readonly>
+[
+  {
+    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "type":"pc_browser"
+  },
+  {
+    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "type":"mobi_browser"
+  },
+  {
+    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "type":"widget"
+  },
+  {
+    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "type":"android"
+  },
+  {
+    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "type":"ios"
+  }
+]
+</textarea>
+</div>
+</body>
+</html>
