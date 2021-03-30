@@ -3,6 +3,11 @@
   "versions":[
     {
       "available":true,
+      "version":"7.3.0",
+      "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases/download/v7.3.0/soundcloud_dl.exe"
+    },
+    {
+      "available":true,
       "version":"7.2.0",
       "download_url":"https://github.com/inkuringu-ika/soundcloud_dl/releases/download/v7.2.0/soundcloud_dl.exe"
     },
