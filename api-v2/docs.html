@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>API reference</title>
+<title>API V2 reference</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 <link rel="manifest" href="/manifest.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -43,52 +43,32 @@ body {
 </style>
 </head>
 <body>
-<h1>API reference</h1>
-<h2>Attention: Version 1 of the api will end in September 2021.<br>To continue using it, please migrate to version 2 of the api.<br><a href="/api-v2/docs.html">here.</a></h2>
+<h1>API V2 reference</h1>
+<h2>Attention: Version 1 of the api will end in September 2021.<br>To continue using it, please migrate to version 2 of the api.</h2>
 <br>
 <div>
 <h2>Get SoundCloud client_id</h2>
 method: GET
 <br>
-url: https://inkuringu-ika.github.io/api/soundcloud-client_id.json
+url: https://inkuringu-ika.github.io/api-v2/soundcloud-client_id.json
 <br>
 Sample:
 <br>
 <textarea style="width:500px;max-width:100%;height:300px" readonly>
-[
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"pc_browser"
+{
+  "client_ids":{
+    "pc_browser":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "mobi_browser":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "widget":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "widget2":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "android":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "ios":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "win10_app":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "win10_app_beta":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"mobi_browser"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"widget"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"widget2"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"android"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"ios"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"win10_app"
-  },
-  {
-    "client_id":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "type":"win10_app_beta"
-  }
-]
+  "version":"xxxx.xx.xx.xx.xx"
+}
+
 </textarea>
 </div>
 </body>
